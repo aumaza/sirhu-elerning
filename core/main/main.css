@@ -1,0 +1,42 @@
+.affix {
+top: 0;
+width: 100%;
+z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+position: relative;
+padding-top: 70px;
+}
+.avatar {
+vertical-align: middle;
+horizontal-align: right;
+width: 24px;
+height: 24px;
+border-radius: 60%;
+}
+	
+textarea {
+overflow: scroll;
+resize: vertical;
+font-size: 2vw; 
+min-height:100px;   
+}
+
+.jumbotron{
+border-style: solid;
+border-color: #34495e;
+border-width: medium;
+}
+
+footer {
+background-color: #566573;
+color: white;
+padding: 10px;
+border-radius: 6px;
+}
+
+body{
+	height:1500px;
+	background: #839192;
+}

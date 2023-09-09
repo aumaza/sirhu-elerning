@@ -1,0 +1,11 @@
+# TABLA se_usuarios
+create table se_usuarios(
+id int(11) auto_increment primary key,
+nombre varchar(150) binary not null,
+user varchar(150) not null,
+password varchar(74) not null,
+email varchar(100) not null,
+functions set('Sys Admin','Usuario','Docente','Alumno') not null,
+avatar varchar(200) not null,
+role int(1)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
